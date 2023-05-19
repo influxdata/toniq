@@ -32,7 +32,7 @@ defmodule Toniq.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:exredis, ">= 0.1.1"},
+      {:exredis, git: "https://github.com/influxdata/redis.git", branch: "exredis"},
       {:uuid, "~> 1.0"},
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:mix_test_watch, "~> 0.5", only: :dev, runtime: false},
