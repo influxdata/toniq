@@ -17,5 +17,5 @@ end
 if Mix.env == :dev do
   # Running Toniq.TestWorker with the regular retry strategy is a bit too slow.
   config :toniq, retry_strategy: Toniq.RetryWithoutDelayStrategy
-  config :exredis, tls: []
+  config :exredis, force_tls: false
 end
