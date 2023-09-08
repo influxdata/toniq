@@ -34,7 +34,7 @@ defmodule Toniq.Mixfile do
     [
       {:exredis,
        git: "https://github.com/influxdata/redis.git",
-       ref: "46b7053055f8c0574340d697baf740561ee3a3f7"},
+       ref: "89083b41db11a74e76f48df3ae6c773c2a3daa74"},
       {:uuid, "~> 1.0"},
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:mix_test_watch, "~> 0.5", only: :dev, runtime: false},
